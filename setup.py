@@ -14,4 +14,5 @@ setup(name="ponger",
       py_modules=["ponger"],
       description="A Python library that will compare two semantic version strings.",
       license="MIT",
+      install_requires=["flask-restful"],
       )
