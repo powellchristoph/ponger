@@ -5,10 +5,8 @@ try:
 except ImportError:
     from distutils.core import setup
 
-import ponger
-
 setup(name="ponger",
-      version=ponger.__version__,
+      version='0.1.0',
       author="Christopher Powell",
       author_email="powellchristoph@gmail.com",
       py_modules=["ponger"],
