@@ -13,4 +13,4 @@ class PongerAPI(Resource):
 api.add_resource(PongerAPI, '/ping')
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run()
