@@ -28,3 +28,13 @@ pip install -e .
 # This will build dist/ponger-0.1.0-py2.py3-none-any.whl
 python setup.py bdist_wheel
 ```
+
+#### Run tests
+```
+$ python test_ponger.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.016s
+
+OK
+```
