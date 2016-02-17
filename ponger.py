@@ -8,7 +8,7 @@ api = Api(app)
 
 class PongerAPI(Resource):
     def get(self):
-        return {'message': 'pong'}
+        return {'message': 'pong!'}
 
 api.add_resource(PongerAPI, '/ping')
 
