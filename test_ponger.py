@@ -13,7 +13,7 @@ class PongerTest(unittest.TestCase):
         self.assertEqual(200, rv.status_code)
 
         resp = json.loads(rv.data)
-        self.assertEqual(resp, {'message': 'pong'})
+        self.assertEqual(resp, {'message': 'pong!'})
 
 if __name__ == '__main__':
     unittest.main()
